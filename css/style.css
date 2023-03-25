@@ -70,7 +70,16 @@ li{
     position: relative;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin:0 auto;
+    
+
+    width: 500px;
+    height: 300px;
+    border-radius: 4%;
+    border: 5px solid rgb(71, 43, 2);
+    position: relative;
+    right: 30%;
+    top: 20px;
   }
   
   .carousel-slide {
@@ -81,7 +90,8 @@ li{
   }
   
   img {
-    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
     height: auto;
     scroll-snap-align: start;
   }
@@ -116,3 +126,161 @@ li{
     color: rgb(92, 182, 7);
     font-size: 25px;
   }
+
+  footer{
+    background-image: linear-gradient(to right, #502e02,#faa332);
+    border-radius: 15px;
+    
+  }
+  
+  .mis{
+    max-width: 500px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+    
+   }
+
+   .quem-somos p{
+ 
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: minhafonte;
+    display:flex;
+    align-items:flex-end;
+    left: 25%;
+    position: relative;
+    padding: 25px;
+   }
+
+   .bio{
+    padding: 30px;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, rgb(20, 5, 20), rgb(148, 92, 9));
+    position: relative;
+   
+  
+   }
+
+   .visa p{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: minhafonte;
+    display:flex;
+    align-items:flex-end;
+    left: 25%;
+    position: relative;
+    padding: 25px;
+  
+   }
+
+   #val{
+    position: absolute;
+    max-width: 500px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+    right: 1%;
+    
+   }
+
+   h5{
+    font-weight: 200;
+    font-size: 50px;
+    color: aqua;
+    margin: 0;
+    font-family: minhafonte;
+    display:flex;
+    align-items:flex-end;
+    left: 33%;
+    position:relative;
+  
+    
+}
+
+.bio .vinho {
+  max-width: 600px;
+    font-family: minhafonte;
+    font-size:medium;
+    display:grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .vinho1 {
+  max-width: 400px;
+  font-family: minhafonte;
+  font-size:medium;
+  display: grid;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.bio .vinho2 {
+  max-width: 400px;
+  font-family: minhafonte;
+  font-size:medium;
+  display: grid;
+  padding: 10px;
+  border-radius: 30px;
+  
+}
+
+.bio #queijo {
+  max-width: 600px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .queijo1 {
+  max-width: 400px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .queijo2 {
+  max-width: 400px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .tempero {
+  max-width: 600px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .tempero1 {
+  max-width: 400px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bio .tempero2 {
+  max-width: 400px;
+    font-family: minhafonte;
+    font-size:medium;
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+}
